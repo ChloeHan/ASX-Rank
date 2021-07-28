@@ -8,6 +8,36 @@
                 background-color: lightblue;
                 text-align: center;
                }
+		
+		/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create 4 equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
         </style>
 
     </head>
@@ -18,120 +48,20 @@
         </div>
 	    
 	    
-    <div class="recommendation">
-<div style="min-height:40rem" class="recommendation tiles bg-light-gray no-border ">
-
-    
-    
-    <a class="recommendation tiles gtm-recommendsingle-link-whole" href="/gold.html" target="_self">
-        <div><div class="left-align">
-    <div data-cmp-is="image" data-cmp-lazy data-cmp-src="/img/gold.jpeg" data-asset="/img/gold.jpeg" data-title="Gold" class="cmp-image">
-        
-            <noscript data-cmp-hook-image="noscript">
-
-                <img id="/img/image" src="/img/gold.jpeg" class=" obj-pos-50-50" data-cmp-hook-image="image" alt title="Gold"/>
-            </noscript>
-               
-    </div>
-    
-    
-
+ <div class="header">
+  <h2>Header</h2>
 </div>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">Gold</div>
+  <div class="column" style="background-color:#bbb;">Iron</div>
+  <div class="column" style="background-color:#ccc;">Oil</div>
+  <div class="column" style="background-color:#ddd;">Coal</div>
 </div>
-        <div class="text gtm-recommendsingle-link-whole">
-            <div class="text-wrapper title gtm-recommendsingle-link-whole">
-                <div class="cmp-text   gtm-recommendsingle-link-whole">
-                    <h4>USD</h4>
-<p>top1</p>
-<p>top2</p>
 
-                </div>
-            </div>
-        </div>
-    </a>
-</div></div>
-
-
-
-                </div>
-            </div>
-			
-        
-			
-			
-            <div id="multi-column-1" class="multi-column visibility-hidden col-md-3 col-xs-12 ">
-                <div>
-                    
-
-
-
-    
-    
-    <div class="recommendation">
-<div style="min-height:20rem" class="recommendation tiles bg-light-gray no-border ">
-
-    
-    
-    <a class="recommendation tiles gtm-recommendsingle-link-whole" href="/content/asx/home/markets/trade-our-derivatives-market/futures-market/rba-rate-tracker.html" target="_self">
-        <div class="text gtm-recommendsingle-link-whole">
-            <div class="text-wrapper title gtm-recommendsingle-link-whole">
-                <div class="cmp-text   gtm-recommendsingle-link-whole">
-                    <h4>Gold</h4>
-<p>top1</p>
-<p>top2</p>
-
-                </div>
-            </div>
-        </div>
-    </a>
-</div></div>
-
-
-
-                </div>
-            </div>
-			
-        
-			
-			
-            <div id="multi-column-2" class="multi-column visibility-hidden col-md-3 col-xs-12 ">
-                <div>
-                    
-
-
-
-    
-    
-<div class="recommendation">
-<div style="min-height:10rem" class="recommendation tiles bg-light-gray no-border ">
-</div></div>
-
-                </div>
-            </div>
-			
-        
-			
-			
-            <div id="multi-column-3" class="multi-column visibility-hidden col-md-3 col-xs-12 ">
-                <div>
-                    
-
-
-
-    
-    
-    <div class="text">
-  <div class="text-wrapper container gtm-text">
-    
-      <div class="cmp-text topline lightblue">
-        <h3>Welcome</h3>
-<p>Top news<br />
-</p>
-<ul>
-<li><a href="/content/asx/home/markets/trade-our-cash-market/equity-market-prices.html">Cash market prices</a></li>
-</ul>
-
-      </div>
+<div class="footer">
+  <p>US Dollar Index</p>
+</div>
         
         
     </body>
