@@ -10,5 +10,8 @@
       import browser
       browser.alert("Hello Real Python!")
     </script>
+      <a href='index'>Return homepage</a>      
+      <br> 
+      <botton type ="botton" id="goButon">Go</button>
   </body>
 </html>
