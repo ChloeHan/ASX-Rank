@@ -1,7 +1,7 @@
 # -*-coding=utf-8-*-
 __author__ = 'chloehan'
 
-# 获取每天的行情信息
+# 获取每天的行情信息---获取每天换手率前50的热门股
 import tushare as ts
 import pandas as pd
 import time

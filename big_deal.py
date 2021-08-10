@@ -1,9 +1,6 @@
 #-*-coding=utf-8-*-
-__author__ = 'Rocky'
-'''
-http://30daydo.com
-Contact: weigesysu@qq.com
-'''
+__author__ = 'ChloeHan'
+
 import tushare as ts
 #搜索大单进入的个股
 import pandas as pd
